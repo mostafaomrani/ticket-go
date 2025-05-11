@@ -1,3 +1,11 @@
-load packages => (viper) https://github.com/spf13/viper
+1 - load packages => (viper) https://github.com/spf13/viper
 
-package for log => (zerolog) https://github.com/rs/zerolog
+2 - package for log => (zerolog) https://github.com/rs/zerolog
+
+3 - package for connect to postgres -  PostgreSQL Driver and Toolkit (pgx) 
+https://github.com/jackc/pgx
+- go get github.com/jackc/pgx/v5
+- go get github.com/jackc/pgx/v5/pgxpool
+
+
+4 - SQLC for write sql querty like gorm 
